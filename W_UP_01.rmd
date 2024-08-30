@@ -38,7 +38,6 @@ So I use the helper file num~categorical
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
-This boxplot shows that on average players in the skill positions do more pushups in 2 minutes than do the line players.
 
 ## Descriptive Results
 
@@ -50,6 +49,8 @@ This boxplot shows that on average players in the skill positions do more pushup
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+
+This boxplot shows that on average players in the skill positions do more pushups in 2 minutes than do the line players.
 
 ### Numerical Descriptive Results
 
